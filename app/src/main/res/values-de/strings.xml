@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <!-- App name -->
-  <string name="About.appName.android">Loaf</string>
+  <string name="About.appName.android">CTX</string>
   <!-- About screen blog label -->
   <string name="About.blog">Blog</string>
   <!-- About screen footer -->
-  <string name="About.footer">Erstellt vom globalen Loaf-Team. Version %1$s</string>
+  <string name="About.footer">Erstellt vom CTX-Team. Version %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Datenschutzerklärung</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">Reddit</string>
+  <string name="About.reddit">Twitter</string>
   <!-- Terms of Use button label -->
   <string name="About.terms">Nutzungsbedingungen</string>
   <!-- About screen title -->
   <string name="About.title">Info</string>
   <!-- About screen twitter label -->
   <string name="About.twitter">Twitter</string>
+  <string name="About.telegram">Telegram</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">Schließen</string>
   <!-- Support center accessibiliy label -->
@@ -23,23 +24,23 @@
   <!-- Loading Wallet Message -->
   <string name="Account.loadingMessage">Wallet wird geladen</string>
   <!-- Default wallet name -->
-  <string name="AccountHeader.defaultWalletName">Mein Loaf</string>
+  <string name="AccountHeader.defaultWalletName">Mein CTX</string>
   <!-- Equals symbol -->
   <string name="AccountHeader.equals">=</string>
   <!-- Manage wallet button title -->
   <string name="AccountHeader.manageButtonName">VERWALTEN</string>
   <!-- Third party keyboard warning -->
-  <string name="Alert.customKeyboard.android">Anscheinend verwenden Sie eine Drittanbieter-Tastatur, die Ihre Eingaben aufzeichnen und Ihren Paper Key stehlen kann. Bitte wechseln Sie für zusätzlichen Schutz zur Standard-Tastatur von Android.</string>
+  <string name="Alert.customKeyboard.android">Anscheinend verwendest Du eine Drittanbieter-Tastatur, die Deine Eingaben aufzeichnen und Deinen Paper Key stehlen könnte. Bitte wechsle für zusätzlichen Schutz zur Standard-Tastatur von Android.</string>
   <!-- Error alert title -->
   <string name="Alert.error">Fehler</string>
   <!-- Keystore error -->
-  <string name="Alert.keystore.generic.android">Es liegt ein Problem mit dem KeyStore Ihres Android-Betriebssystems vor, bitte wenden Sie sich an contact@loafwallet.org</string>
+  <string name="Alert.keystore.generic.android">Es liegt ein Problem mit dem KeyStore Deines Android-Betriebssystems vor!</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">Ihre mit Loaf verschlüsselten Daten wurden vor Kurzem für ungültig erklärt, da Ihre Android-Bildschirmsperre deaktiviert war.</string>
+  <string name="Alert.keystore.invalidated.android">Deine mit CTX verschlüsselten Daten wurden vor kurzem für ungültig erklärt, da Deine Android-Bildschirmsperre deaktiviert war.</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">Android-KeyStore-Fehler</string>
   <!-- No internet alert message -->
-  <string name="Alert.noInternet">Keine Internetverbindung gefunden. Bitte überprüfe deine Verbindung und versuche es erneut.</string>
+  <string name="Alert.noInternet">Keine Internetverbindung gefunden. Bitte überprüfe Deine Verbindung und versuche es erneut.</string>
   <!-- Warning alert title -->
   <string name="Alert.warning">Achtung</string>
   <!-- 'the addresses were copied'' Alert title -->
@@ -67,17 +68,17 @@
   <!-- API Token error message -->
   <string name="ApiClient.tokenError">API-Token konnte nicht abgerufen werden</string>
   <!-- Send BCH view body. -->
-  <string name="BCH.body">Geben Sie unten eine Ziel-BCH-Adresse ein. Das gesamte BCH Guthaben aus Ihrem Wallet zur Zeit der Aufspaltung (%1$s) wird versendet.</string>
+  <string name="BCH.body">Gib unten eine Ziel-BCH-Adresse ein. Das gesamte BCH Guthaben aus Deiem Wallet zur Zeit der Aufspaltung (%1$s) wird versendet.</string>
   <!-- Confirm sending <$5.00> to <address>? -->
   <string name="BCH.confirmationMessage">Senden von %1$s an %2$s bestätigen</string>
   <!-- Confirmation alert title -->
   <string name="BCH.confirmationTitle">Bestätigung</string>
   <!-- Generic bch erorr message -->
-  <string name="BCH.genericError">Ihr Konto enthält kein BCH oder Sie haben BCH nach dem Fork erhalten.</string>
+  <string name="BCH.genericError">Dein Konto enthält kein BCH oder Du hast BCH nach dem Fork erhalten.</string>
   <!-- Transaction ID copied message -->
   <string name="BCH.hashCopiedMessage">Transaktions-ID kopiert</string>
   <!-- No address error message -->
-  <string name="BCH.noAddressError">Bitte geben Sie die Adresse ein</string>
+  <string name="BCH.noAddressError">Bitte gib die Adresse ein</string>
   <!-- Attempted to scan unsupported qr code error message. -->
   <string name="BCH.paymentProtocolError">Zahlungsprotokoll-Anfragen werden bei BCH-Transaktionen nicht unterstützt</string>
   <!-- BCH successfully sent alert message -->
@@ -89,7 +90,7 @@
   <!-- Approve button label -->
   <string name="BitID.approve">Bestätigen</string>
   <!-- <sitename> is requesting authentication using your bitcoin wallet -->
-  <string name="BitID.authenticationRequest">%1$s fordert die Authentifizierung über Ihr Litecoin-Wallet an</string>
+  <string name="BitID.authenticationRequest">%1$s fordert die Authentifizierung über Ihr Centauricoin-Wallet an</string>
   <!-- Deny button label -->
   <string name="BitID.deny">Ablehnen</string>
   <!-- BitID error alert title -->
@@ -140,8 +141,8 @@
   <string name="ConfirmPaperPhrase.label">Um sicherzustellen, dass alles korrekt notiert worden ist, gib bitte die folgenden Wörter deines Offlineschlüssels ein.</string>
   <!-- Word label eg. Word #1, Word #2 -->
   <string name="ConfirmPaperPhrase.word">Wort #%1$s</string>
-  <!-- Litecoin denomination picker label -->
-  <string name="DefaultCurrency.litecoinLabel">Litecoin-Anzeigeeinheit</string>
+  <!-- Centauricoin denomination picker label -->
+  <string name="DefaultCurrency.litecoinLabel">Centauricoin-Anzeigeeinheit</string>
   <!-- Exchange rate label -->
   <string name="DefaultCurrency.rateLabel">Wechselkurs</string>
   <!-- Email unavailable alert title -->
@@ -171,7 +172,7 @@
   <!-- Checking private key balance progress view text -->
   <string name="Import.checking">Das Privatschlüsselguthaben wird überprüft …</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">%1$s von diesem privaten Schlüssel in Ihr Wallet senden? Das Litecoin-Netzwerk erhält eine Gebühr von %2$s.</string>
+  <string name="Import.confirm">%1$s von diesem privaten Schlüssel in Ihr Wallet senden? Das Centauricoin-Netzwerk erhält eine Gebühr von %2$s.</string>
   <!-- Duplicate key error message -->
   <string name="Import.Error.duplicate">Dieser private Schlüssel befindet sich bereits in deinem Wallet.</string>
   <!-- empty private key error message -->
@@ -189,13 +190,13 @@
   <!-- Caption for graphics -->
   <string name="Import.leftCaption">Zu importierendes Wallet</string>
   <!-- Import wallet intro screen message -->
-  <string name="Import.message">Der Import eines Wallets überträgt das gesamte Guthaben deines anderen Wallets mit einer einzigen Transaktion in dein Loaf-Wallet.</string>
+  <string name="Import.message">Der Import eines Wallets überträgt das gesamte Guthaben deines anderen Wallets mit einer einzigen Transaktion in dein CTX-Wallet.</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">Dieser private Schlüssel ist passwortgeschützt.</string>
   <!-- password textfield placeholder -->
   <string name="Import.passwordPlaceholder">Passwort</string>
   <!-- Caption for graphics -->
-  <string name="Import.rightCaption">Dein Loaf-Wallet</string>
+  <string name="Import.rightCaption">Dein CTX-Wallet</string>
   <!-- Scan Private key button label -->
   <string name="Import.scan">Privaten Schlüssel scannen</string>
   <!-- Import wallet success alert title -->
@@ -209,7 +210,7 @@
   <!-- Import wallet intro warning message -->
   <string name="Import.warning">Der Import eines Wallets umfasst nicht den Transaktionsverlauf oder andere Zusatzinformationen.</string>
   <!-- Wrong password alert message -->
-  <string name="Import.wrongPassword">Falsches Passwort, bitte versuchen Sie es erneut.</string>
+  <string name="Import.wrongPassword">Falsches Passwort, bitte erneut versuchen.</string>
   <!-- Close app button -->
   <string name="JailbreakWarnings.close">Schließen</string>
   <!-- Ignore jailbreak warning button -->
@@ -217,7 +218,7 @@
   <!-- Jailbreak warning message -->
   <string name="JailbreakWarnings.messageWithBalance">DAS GERÄT IST NICHT LÄNGER SICHER\nJede beliebige „Jailbreak“-App kann auf Loafs Keychain-Daten zugreifen und deine Litecoins stehlen! Lösche dieses Wallet unverzüglich und stelle es auf einem sicheren Gerät wieder her.</string>
   <!-- Jailbreak warning message -->
-  <string name="JailbreakWarnings.messageWithoutBalance">DAS GERÄT IST NICHT LÄNGER SICHER\nJede beliebige „Jailbreak“-App kann auf Loafs Keychain-Daten zugreifen und deine Litecoins stehlen. Bitte setze Loaf ausschließlich auf Geräten ohne Jailbreak ein.</string>
+  <string name="JailbreakWarnings.messageWithoutBalance">DAS GERÄT IST NICHT LÄNGER SICHER\nJede beliebige „Jailbreak“-App kann auf Loafs Keychain-Daten zugreifen und deine Litecoins stehlen. Bitte setze CTX ausschließlich auf Geräten ohne Jailbreak ein.</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">ACHTUNG</string>
   <!-- Wipe wallet button -->
@@ -225,7 +226,7 @@
   <!-- Location services disabled error -->
   <string name="LocationPlugin.disabled">Standortdienste sind deaktiviert</string>
   <!-- No permissions for location services -->
-  <string name="LocationPlugin.notAuthorized">Loaf fehlt die Berechtigung, um auf die Standortdienste zuzugreifen.</string>
+  <string name="LocationPlugin.notAuthorized">CTX fehlt die Berechtigung, um auf die Standortdienste zuzugreifen.</string>
   <!-- Wallet creation date prefix -->
   <string name="ManageWallet.creationDatePrefix">Du hast dein Wallet am %1$s erstellt</string>
   <!-- Manage wallet description text -->
@@ -235,7 +236,7 @@
   <!-- Manage wallet modal title -->
   <string name="ManageWallet.title">Wallet verwalten</string>
   <!-- Buy bitcoin title -->
-  <string name="MenuButton.buy">Litecoin kaufen</string>
+  <string name="MenuButton.buy">Centauricoin kaufen</string>
   <!-- Menu button title -->
   <string name="MenuButton.lock">Wallet sperren</string>
   <!-- Menu button title -->
@@ -255,7 +256,7 @@
   <!-- Node is connected label -->
   <string name="NodeSelector.connected">Verbunden</string>
   <!-- Enter node ip address view body -->
-  <string name="NodeSelector.enterBody">Geben Sie die Node-IP-Adresse und den Port ein (optional)</string>
+  <string name="NodeSelector.enterBody">Gib die Node-IP-Adresse und den Port ein (optional)</string>
   <!-- Enter Node ip address view title -->
   <string name="NodeSelector.enterTitle">Node eingeben</string>
   <!-- Switch to manual mode button label -->
@@ -267,7 +268,7 @@
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">Node-Verbindungsstatus</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">Litecoin-Nodes</string>
+  <string name="NodeSelector.title">Centauricoin-Nodes</string>
   <!-- Bad Payment request alert title -->
   <string name="PaymentProtocol.Errors.badPaymentRequest">Ungültige Zahlungsanforderung</string>
   <!-- Error opening payment protocol file message -->
@@ -279,23 +280,23 @@
   <!-- Payment too small alert title -->
   <string name="PaymentProtocol.Errors.smallOutputError">Die Zahlung konnte nicht durchgeführt werden</string>
   <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">Litecoin-Zahlungen können nicht geringer als %1$s sein.</string>
+  <string name="PaymentProtocol.Errors.smallPayment">Centauricoin-Zahlungen können nicht geringer als %1$s sein.</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">Litecoin-Transaktionsausgaben können nicht geringer als %1$s sein.</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">Centauricoin-Transaktionsausgaben können nicht geringer als %1$s sein.</string>
   <!-- Unsupported signature type payment protocol error message -->
   <string name="PaymentProtocol.Errors.unsupportedSignatureType">Nicht unterstützter Signaturtyp</string>
   <!-- Untrusted certificate payment protocol error message -->
   <string name="PaymentProtocol.Errors.untrustedCertificate">Nicht vertrauenswürdiges Zertifikat</string>
   <!-- No passcode set warning body -->
-  <string name="Prompts.NoPasscode.body">Ein Gerät-Passcode wird benötigt, um Ihr Wallet zu schützen. Gehen Sie zu den Einstellungen und aktivieren Sie den Passcode.</string>
+  <string name="Prompts.NoPasscode.body">Ein Gerät-Passcode wird benötigt, um Dein Wallet zu schützen. Geh zu den Einstellungen und aktiviere den Passcode.</string>
   <!-- No Passcode set warning title -->
-  <string name="Prompts.NoPasscode.title">Aktivieren Sie den Gerät-Passcode</string>
+  <string name="Prompts.NoPasscode.title">Aktiviere den Gerät-Passcode</string>
   <!-- Instruction how to enable device encryption -->
-  <string name="Prompts.NoScreenLock.body.android">Es ist eine Bildschirmsperre auf dem Gerät erforderlich, um Ihr Wallet abzusichern. Gehen Sie zu „Einstellungen” &gt; „Sicherheit” &gt; „Bildschirmsperre” und aktivieren Sie diese, um fortzufahren.</string>
+  <string name="Prompts.NoScreenLock.body.android">Es ist eine Bildschirmsperre auf dem Gerät erforderlich, um Dein Wallet abzusichern. Geh zu „Einstellungen” &gt; „Sicherheit” &gt; „Bildschirmsperre” und aktiviere diese, um fortzufahren.</string>
   <!-- Device encryption prompt title -->
   <string name="Prompts.NoScreenLock.title.android">Bildschirmsperre deaktiviert</string>
   <!-- Warning about paper key. -->
-  <string name="Prompts.PaperKey.body">Ihr Paper-Key muss für den Fall, dass Sie Ihr Telefon verlieren oder wechseln, gespeichert werden. Tippen Sie hier, um fortzufahren.</string>
+  <string name="Prompts.PaperKey.body">Dein Paper-Key muss für den Fall, dass Du Dein Telefon verlierst oder wechselst, gespeichert werden. Tippe hier, um fortzufahren.</string>
   <!-- An action is required (You must do this action). -->
   <string name="Prompts.PaperKey.title">Maßnahme erforderlich</string>
   <!-- Transaction rejected prompt body -->
@@ -303,7 +304,7 @@
   <!-- Transaction rejected prompt title -->
   <string name="Prompts.RecommendRescan.title">Transaktion abgelehnt</string>
   <!-- Share data prompt body -->
-  <string name="Prompts.ShareData.body">Tragen Sie zur Verbesserung von Loaf bei, indem Sie Ihre anonymen Daten mit uns teilen</string>
+  <string name="Prompts.ShareData.body">Trage zur Verbesserung von CTX bei, indem Du Deine anonymen Daten mit uns teilst</string>
   <!-- Share data prompt title -->
   <string name="Prompts.ShareData.title">Anonyme Daten teilen</string>
   <!-- Enable touch ID prompt body -->
@@ -317,11 +318,11 @@
   <!-- Button on fingerprint prompt so the user can enter their PIN instead -->
   <string name="Prompts.TouchId.usePin.android">PIN</string>
   <!-- Upgrade PIN prompt body. -->
-  <string name="Prompts.UpgradePin.body">Loaf nutzt mittlerweile eine 6-stellige PIN. Hier antippen, um upzugraden.</string>
+  <string name="Prompts.UpgradePin.body">CTX nutzt mittlerweile eine 6-stellige PIN. Hier antippen, um upzugraden.</string>
   <!-- Upgrade PIN prompt title. -->
   <string name="Prompts.UpgradePin.title">PIN upgraden</string>
   <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">Schalten Sie Benachrichtigungen ein, um in Zukunft besondere Meldungen von Loaf zu erhalten.</string>
+  <string name="PushNotifications.body">Schalten Sie Benachrichtigungen ein, um in Zukunft besondere Meldungen von CTX zu erhalten.</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Push-Benachrichtigungen</string>
   <!-- Push notifications are off label -->
@@ -351,7 +352,7 @@
   <!-- Enter paper key instruction -->
   <string name="RecoverWallet.instruction">Offlineschlüssel eingeben</string>
   <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">Stelle dein Loaf mithilfe deines Offlineschlüssels wieder her.</string>
+  <string name="RecoverWallet.intro">Stelle dein CTX mithilfe deines Offlineschlüssels wieder her.</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">Der von dir eingegebene Offlineschlüssel ist ungültig. Bitte überprüfe nochmal jedes Wort und versuche es erneut.</string>
   <!-- Previous button accessibility label -->
@@ -377,11 +378,11 @@
   <!-- Alert message title -->
   <string name="ReScan.alertTitle">Mit der Blockchain synchronisieren?</string>
   <!-- extimated time -->
-  <string name="ReScan.body1">20–45 Minuten</string>
+  <string name="ReScan.body1">10-20 Minuten</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Wenn eine Transaktion im Litecoin-Netzwerk, aber nicht in deinem Loaf als abgeschlossen angezeigt wird.</string>
+  <string name="ReScan.body2">Wenn eine Transaktion im Centauricoin-Netzwerk, aber nicht in deinem CTX als abgeschlossen angezeigt wird.</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body3">Sie erhalten wiederholt eine Fehlermeldung, dass Ihre Transaktion abgewiesen wurde.</string>
+  <string name="ReScan.body3">Du erhältst wiederholt eine Fehlermeldung, dass Deine Transaktion abgewiesen wurde.</string>
   <!-- Start Sync button label -->
   <string name="ReScan.buttonTitle">Synchronisation starten</string>
   <!-- Sync blockchain view footer -->
@@ -405,17 +406,17 @@
   <!-- Security Center Info -->
   <string name="SecurityCenter.info">Aktiviere alle Sicherheitsfunktionen für maximalen Schutz.</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">Die einzige Möglichkeit, wie du auf deine Litecoins zugreifen kannst, falls du dein Smartphone verlierst oder wechselst.</string>
+  <string name="SecurityCenter.paperKeyDescription">Die einzige Möglichkeit, wie du auf deine CTX zugreifen kannst, falls du dein Smartphone verlierst oder wechselst.</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Offlineschlüssel</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">Schütze dein Loaf vor nicht autorisierten Benutzern.</string>
+  <string name="SecurityCenter.pinDescription">Schütze deine CTX vor nicht autorisierten Benutzern.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">6-stellige PIN</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Sicherheits-Center</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">Eine praktische Möglichkeit, dein Loaf zu entsperren und Geld bis zu einer festlegbaren Höchstgrenze zu versenden.</string>
+  <string name="SecurityCenter.touchIdDescription">Eine praktische Möglichkeit, deine CTX zu entsperren und Geld bis zu einer festlegbaren Höchstgrenze zu versenden.</string>
   <!-- Touch ID button title -->
   <string name="SecurityCenter.touchIdTitle">Touch ID</string>
   <!-- Security center fingerprint authentication button -->
@@ -425,13 +426,13 @@
   <!-- Balance: $4.00 -->
   <string name="Send.balance">Guthaben: %1$s</string>
   <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">Erlauben Sie den Kamerazugriff unter „Einstellungen” &gt; „Apps” &gt; „Loaf” &gt; „Berechtigungen”</string>
+  <string name="Send.cameraUnavailabeMessage.android">Erlaube den Kamerazugriff unter „Einstellungen” &gt; „Apps” &gt; „Loaf” &gt; „Berechtigungen”</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">Loaf hat keine Berechtigung für Kamerazugriff</string>
+  <string name="Send.cameraUnavailabeTitle.android">CTX hat keine Berechtigung für Kamerazugriff</string>
   <!-- Camera not allowed message -->
   <string name="Send.cameraunavailableMessage">Rufe die Einstellungen auf, um den Zugriff auf die Kamera zu erlauben.</string>
   <!-- Camera not allowed alert title -->
-  <string name="Send.cameraUnavailableTitle">Loaf darf nicht auf die Kamera zugreifen</string>
+  <string name="Send.cameraUnavailableTitle">CTX darf nicht auf die Kamera zugreifen</string>
   <!-- Warning when sending to self. -->
   <string name="Send.containsAddress">Das Ziel ist deine eigene Adresse. Du kannst nichts an dich selbst senden.</string>
   <!-- Could not create transaction alert title -->
@@ -445,9 +446,9 @@
   <!-- Payee identity not certified alert title. -->
   <string name="Send.identityNotCertified">die Identität des Zahlungsempfängers ist nicht bestätigt.</string>
   <!-- Invalid address alert message -->
-  <string name="Send.invalidAddressMessage">Die Zieladresse ist keine gültige Litecoin-Adresse.</string>
+  <string name="Send.invalidAddressMessage">Die Zieladresse ist keine gültige Centauricoin-Adresse.</string>
   <!-- Invalid address on pasteboard message -->
-  <string name="Send.invalidAddressOnPasteboard">Pasteboard enthält keine gültige Litecoin-Adresse.</string>
+  <string name="Send.invalidAddressOnPasteboard">Pasteboard enthält keine gültige Centauricoin-Adresse.</string>
   <!-- Invalid address alert title -->
   <string name="Send.invalidAddressTitle">Ungültige Adresse</string>
   <!-- Is rescanning error message -->
@@ -473,7 +474,7 @@
   <!-- Send money to label -->
   <string name="Send.toLabel">An</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">Litecoin-Adressen sind lediglich zur einmaligen Benutzung vorgesehen.</string>
+  <string name="Send.UsedAddress.firstLine">Centauricoin-Adressen sind lediglich zur einmaligen Benutzung vorgesehen.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">Durch eine mehrfache Verwendung können sowohl du als auch der Empfänger leichter identifiziert werden und falls der Empfänger die Adresse nicht direkt kontrolliert, kann das Verluste bedeuten.</string>
   <!-- Adress already used alert title -->
@@ -487,7 +488,7 @@
   <!-- Join Early access label -->
   <string name="Settings.earlyAccess">Zum Early Access anmelden</string>
   <!-- Are you enjoying bread alert message body -->
-  <string name="Settings.enjoying">Gefällt dir Loaf?</string>
+  <string name="Settings.enjoying">Gefällt dir CTX?</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Wallet importieren</string>
   <!-- Manage settings section header -->
@@ -511,7 +512,7 @@
   <!-- Start or recover another wallet menu label. -->
   <string name="Settings.wipe">Ein anderes Wallet starten/wiederherstellen</string>
   <!-- Share data view body -->
-  <string name="ShareData.body">Hilf dabei, Loaf zu verbessern, indem du uns deine Nutzungsdaten anonym übermittelst. Hiervon sind sämtliche Finanzinformationen ausgeschlossen. Wir respektieren deine finanzielle Privatsphäre.</string>
+  <string name="ShareData.body">Hilf dabei, CTX zu verbessern, indem du uns deine Nutzungsdaten anonym übermittelst. Hiervon sind sämtliche Finanzinformationen ausgeschlossen. Wir respektieren deine finanzielle Privatsphäre!</string>
   <!-- Share data header -->
   <string name="ShareData.header">Nutzungsdaten übermitteln?</string>
   <!-- Share data switch label. -->
@@ -519,13 +520,13 @@
   <!-- button label -->
   <string name="StartPaperPhrase.againButtonTitle">Offlineschlüssel erneut notieren</string>
   <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">Dein Offlineschlüssel ist die einzige Möglichkeit, dein Loaf wiederherzustellen, falls du dein Smartphone verlierst, austauscht, es gestohlen wird oder kaputtgeht.\n\nHierfür zeigen wir dir eine Liste von Wörtern an, damit du sie dir auf ein Stück Papier notieren kannst, das es sicher aufzubewahren gilt.</string>
+  <string name="StartPaperPhrase.body">Dein Offlineschlüssel ist die einzige Möglichkeit, dein Wallet wiederherzustellen, falls du dein Smartphone verlierst, austauschst, es gestohlen wird oder kaputtgeht.\n\nHierfür zeigen wir dir eine Liste von Wörtern an, damit du sie dir auf ein Stück Papier notieren kannst, das es sicher aufzubewahren gilt.</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">Offlineschlüssel notieren</string>
   <!-- Argument is date -->
   <string name="StartPaperPhrase.date">Du hast dir deinen Offlineschlüssel zuletzt am %1$s notiert</string>
   <!-- Start view message -->
-  <string name="StartViewController.message">Die sicherste Option zur Nutzung von Litecoin.</string>
+  <string name="StartViewController.message">Die sicherste Option zur Nutzung von Centauricoin.</string>
   <!-- Syncing view connectiong state header text -->
   <string name="SyncingView.connecting">Verbindet</string>
   <!-- Syncing view header text -->
@@ -543,21 +544,21 @@
   <!-- 6 s (6 seconds) -->
   <string name="TimeSince.seconds">%1$s s</string>
   <!-- You can customize your Touch ID Spending Limit from the [TouchIdSettings.linkText gets added here as a button] -->
-  <string name="TouchIdSettings.customizeText">Sie können über %1$s ein Ausgabenmaximum für Touch ID festlegen.</string>
+  <string name="TouchIdSettings.customizeText">Du kannst über %1$s ein Ausgabenmaximum für Touch ID festlegen.</string>
   <!-- Fingerprint enabling description body -->
-  <string name="TouchIdSettings.customizeText.android">Sie können Ihr Ausgabelimit für die Fingerabdruck-Authentifizierung auf dem Bildschirm „Ausgabelimit bei Fingerabdruck-Autorisierung” anpassen</string>
+  <string name="TouchIdSettings.customizeText.android">Du kannst Dein Ausgabelimit für die Fingerabdruck-Authentifizierung auf dem Bildschirm „Ausgabelimit bei Fingerabdruck-Autorisierung” anpassen</string>
   <!-- Instruction for the fingerprint setup -->
-  <string name="TouchIdSettings.disabledWarning.body.android">Sie haben die Fingerabdruck-Authentifizierung auf diesem Gerät nicht aktiviert. Gehen Sie zu „Einstellungen” -&gt; „Sicherheit”, um die Fingerabdruck-Authentifizierung einzurichten.</string>
+  <string name="TouchIdSettings.disabledWarning.body.android">Du hast die Fingerabdruck-Authentifizierung auf diesem Gerät nicht aktiviert. Geh zu „Einstellungen” -&gt; „Sicherheit”, um die Fingerabdruck-Authentifizierung einzurichten.</string>
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">Fingerabdruck-Authentifizierung nicht aktiviert</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">Nutze deinen Fingerabdruck, um dein Loaf zu entsperren und Geld bis zu einer festlegbaren Höchstgrenze zu versenden.</string>
+  <string name="TouchIdSettings.label">Nutze deinen Fingerabdruck, um dein Wallet zu entsperren und Geld bis zu einer festlegbaren Höchstgrenze zu versenden.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
   <string name="TouchIdSettings.linkText">Bildschirm für Touch-ID-Ausgabenmaximum</string>
   <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Ausgabelimit: %1$s  (%2$s)</string>
   <!-- Touch id switch label. -->
-  <string name="TouchIdSettings.switchLabel">Touch ID für Loaf aktivieren</string>
+  <string name="TouchIdSettings.switchLabel">Touch ID für CTX aktivieren</string>
   <!-- Enable fingerprint for this wallet called Bread -->
   <string name="TouchIdSettings.switchLabel.android">Fingerabdruck-Authentifizierung aktivieren</string>
   <!-- Touch ID settings view title -->
@@ -571,7 +572,7 @@
   <!-- Always require passcode option -->
   <string name="TouchIdSpendingLimit">Immer PIN anfordern</string>
   <!-- Touch ID spending limit screen body -->
-  <string name="TouchIdSpendingLimit.body">Du musst deine 6-stellige PIN eingeben, um Transaktionen abzuschicken, die über deinem Ausgabenlimit liegen, sowie alle 48 Stunden seit du deine 6-stellige PIN das letzte Mal eingegeben hast.</string>
+  <string name="TouchIdSpendingLimit.body">Du musst deine 6-stellige PIN eingeben, um Transaktionen abzuschicken, die über deinem Ausgabenlimit liegen (Wert in der Klammer = Satoshi / BTC), sowie alle 48 Stunden seit du deine 6-stellige PIN das letzte Mal eingegeben hast.</string>
   <!-- Touch Id spending limit screen title -->
   <string name="TouchIdSpendingLimit.title">Touch-ID-Ausgabenlimit</string>
   <!-- name of spending limit when using fingerprint authorization -->
@@ -635,7 +636,7 @@
   <!-- "Sent [$5] to [address]" => This is the "to [address]" part. -->
   <string name="TransactionDetails.to">an %1$s</string>
   <!-- Transaction ID header -->
-  <string name="TransactionDetails.txHashHeader">Litecoin-Transaktions-ID</string>
+  <string name="TransactionDetails.txHashHeader">Centauricoin-Transaktions-ID</string>
   <!-- (this transaction was) Received at this address: -->
   <string name="TransactionDirection.address">An dieser Adresse empfangen</string>
   <!-- (this transaction was) Sent to this address: -->
@@ -653,9 +654,9 @@
   <!-- Instruction to touch the sensor for fingerprint authentication -->
   <string name="UnlockScreen.touchIdInstructions.android">Sensor berühren</string>
   <!-- TouchID prompt text -->
-  <string name="UnlockScreen.touchIdPrompt">Entsperre dein Loaf.</string>
+  <string name="UnlockScreen.touchIdPrompt">Entsperre dein Wallet.</string>
   <!-- Device authentication body -->
-  <string name="UnlockScreen.touchIdPrompt.android">Bitte entsperren Sie Ihr Android-Gerät, um fortzufahren.</string>
+  <string name="UnlockScreen.touchIdPrompt.android">Bitte entsperre Dein Android-Gerät, um fortzufahren.</string>
   <!-- Unlock with TouchID accessibility label -->
   <string name="UnlockScreen.touchIdText">Mit Touch ID entsperren</string>
   <!-- Device authentication title -->
@@ -663,9 +664,9 @@
   <!-- Wallet unlocked message -->
   <string name="UnlockScreen.unlocked">Wallet entsperrt</string>
   <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">Merke dir diese PIN. Falls du sie vergisst, kannst du nicht mehr auf deine Litecoins zugreifen.</string>
+  <string name="UpdatePin.caption">Merke dir diese PIN. Falls du sie vergisst, kannst du nicht mehr auf deine CTX zugreifen.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">Deine PIN wird verwendet, um dein Loaf zu entsperren und Geld zu versenden.</string>
+  <string name="UpdatePin.createInstruction">Deine PIN wird verwendet, um dein Wallet zu entsperren und Geld zu versenden.</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">PIN festlegen</string>
   <!-- Update PIN title -->
@@ -691,7 +692,7 @@
   <!-- Copy wallet addresses alert button label -->
   <string name="URLHandling.copy">Kopieren</string>
   <!-- Verify PIN for transaction view body -->
-  <string name="VerifyPin.authorize">Bitte geben Sie Ihren PIN ein, um diese Transaktion zu genehmigen.</string>
+  <string name="VerifyPin.authorize">Bitte gib Deine PIN ein, um diese Transaktion zu genehmigen.</string>
   <!-- Verify PIN view body -->
   <string name="VerifyPin.continueBody">Bitte gib deine PIN ein, um fortzufahren</string>
   <!-- Verify PIN view title -->
@@ -699,7 +700,7 @@
   <!-- Authorize transaction with touch id message -->
   <string name="VerifyPin.touchIdMessage">Diese Transaktion genehmigen</string>
   <!-- 'No wallet' warning for watch app -->
-  <string name="Watch.noWalletWarning">Öffne die Loaf-iPhone-App, um dein Wallet einzurichten.</string>
+  <string name="Watch.noWalletWarning">Öffne die CTX-iPhone-App, um dein Wallet einzurichten.</string>
   <!-- Dismiss button label -->
   <string name="Webview.dismiss">Verwerfen</string>
   <!-- Webview loading error message -->
@@ -707,11 +708,11 @@
   <!-- Updating webview message -->
   <string name="Webview.updating">Aktualisierung läuft …</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">Loafwallet heißt jetzt Loaf und hat ein brandneues Erscheinungsbild sowie einige neue Funktionen.\n\nWenn Sie Hilfe benötigen, halten Sie Ausschau nach dem (?), das auf den meisten Bildschirm oben rechts zu finden ist.</string>
+  <string name="Welcome.body">Centauricoin Wallet heißt jetzt CTX-Wallet und hat ein brandneues Erscheinungsbild sowie einige neue Funktionen.\n\nWenn Du Hilfe benötigst, halte Ausschau nach dem (?), das auf den meisten Seiten oben rechts zu finden ist.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">Willkommen bei Loaf!</string>
+  <string name="Welcome.title">Willkommen bei CTX!</string>
   <!-- Wipe wallet alert message -->
-  <string name="WipeWallet.alertMessage">Sind Sie sicher, dass Sie dieses Wallet löschen möchten?</string>
+  <string name="WipeWallet.alertMessage">Bist Du sicher, dass Du dieses Wallet löschen möchtest?</string>
   <!-- Wipe wallet alert title -->
   <string name="WipeWallet.alertTitle">Wallet löschen?</string>
   <!-- Failed wipe wallet alert message -->
@@ -719,11 +720,11 @@
   <!-- Failed wipe wallet alert title -->
   <string name="WipeWallet.failedTitle">Fehlgeschlagen</string>
   <!-- Enter phrase to wipe wallet instruction. -->
-  <string name="WipeWallet.instruction">Geben Sie die Wiederherstellungsphrase des Wallets ein, um es zu löschen und die Wiederherstellung eines anderen Wallets zu beginnen. Ihr aktueller Kontostand bleibt mit dieser Phrase verbunden.</string>
+  <string name="WipeWallet.instruction">Gib die Wiederherstellungsphrase des Wallets ein, um es zu löschen und die Wiederherstellung eines anderen Wallets zu beginnen. Dein aktueller Kontostand bleibt mit dieser Phrase verbunden.</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">Das Anlegen oder Wiederherstellen einer weiteren Wallet ermöglicht es Ihnen, auf diesem Gerät auf eine andere Loaf-Wallet zuzugreifen und diese zu verwalten.</string>
+  <string name="WipeWallet.startMessage">Das Anlegen oder Wiederherstellen einer weiteren Wallet ermöglicht es, auf diesem Gerät auf eine andere CTX-Wallet zuzugreifen und diese zu verwalten.</string>
   <!-- Start wipe wallet view warning -->
-  <string name="WipeWallet.startWarning">Sie werden von diesem Gerät aus keinen Zugriff auf Ihr aktuelles Loaf-Wallet mehr haben. Der Saldo verbleibt auf dem Satz.</string>
+  <string name="WipeWallet.startWarning">Du wirst von diesem Gerät aus keinen Zugriff auf Dein aktuelles CTX-Wallet mehr haben. Der Saldo verbleibt auf der Phrase.</string>
   <!-- Wipe wallet navigation item title. -->
   <string name="WipeWallet.title">Ein anderes Wallet beginnen oder wiederherstellen</string>
   <!-- Wipe wallet button title -->

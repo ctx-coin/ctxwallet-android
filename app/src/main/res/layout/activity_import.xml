@@ -108,8 +108,10 @@
             android:layout_alignParentEnd="true"
             android:layout_margin="@dimen/bread_margin"
             android:background="@drawable/faq_question_white"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="81dp"/>
+            tools:layout_editor_absoluteY="81dp"
+            tools:visibility="invisible" />
 
         <ImageView
             android:id="@+id/imageView9"

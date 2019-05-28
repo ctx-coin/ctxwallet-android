@@ -75,7 +75,7 @@ public class FragmentReceive extends Fragment {
     private View separator;
     private BRButton shareButton;
     private Button shareEmail;
-//    private Button shareTextMessage;
+    private Button shareTextMessage;
     private Button requestButton;
     private BRLinearLayoutWithCaret shareButtonsLayout;
     private BRLinearLayoutWithCaret copiedLayout;
@@ -99,7 +99,7 @@ public class FragmentReceive extends Fragment {
         signalLayout = (LinearLayout) rootView.findViewById(R.id.signal_layout);
         shareButton = (BRButton) rootView.findViewById(R.id.share_button);
         shareEmail = (Button) rootView.findViewById(R.id.share_email);
-//        shareTextMessage = (Button) rootView.findViewById(R.id.share_text);
+        shareTextMessage = (Button) rootView.findViewById(R.id.share_text);
         shareButtonsLayout = (BRLinearLayoutWithCaret) rootView.findViewById(R.id.share_buttons_layout);
         copiedLayout = (BRLinearLayoutWithCaret) rootView.findViewById(R.id.copied_layout);
         requestButton = (Button) rootView.findViewById(R.id.request_button);
@@ -155,14 +155,20 @@ public class FragmentReceive extends Fragment {
 
             }
         });
-//        shareTextMessage.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                if (!BRAnimator.isClickAllowed()) return;
-//                String bitcoinUri = Utils.createBitcoinUrl(receiveAddress, 0, null, null, null);
-//                QRUtils.share("sms:", getActivity(), bitcoinUri);
-//            }
-//        });
+        //shareTextMessage.setOnClickListener(new View.OnClickListener() {
+        //    @Override
+        //    public void onClick(View v) {
+        //        if (!BRAnimator.isClickAllowed()) return;
+        //        String bitcoinUri = Utils.createBitcoinUrl(receiveAddress, 0, null, null, null);
+        //        QRUtils.share("sms:", getActivity(), bitcoinUri);
+        //    }
+        //});
+    shareTextMessage.setOnClickListener(new View.OnClickListener() {
+        public void onClick(View v) {
+            shareIt();
+        }
+    });
+
         shareButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -301,7 +307,7 @@ public class FragmentReceive extends Fragment {
                     public void run() {
                         receiveAddress = BRSharedPrefs.getReceiveAddress(ctx);
                         mAddress.setText(receiveAddress);
-                        boolean generated = QRUtils.generateQR(ctx, "litecoin:" + receiveAddress, mQrImage);
+                        boolean generated = QRUtils.generateQR(ctx, "centauri:" + receiveAddress, mQrImage);
                         if (!generated)
                             throw new RuntimeException("failed to generate qr image for address");
                     }
@@ -337,6 +343,15 @@ public class FragmentReceive extends Fragment {
     @Override
     public void onPause() {
         super.onPause();
+    }
+
+    private void shareIt() {
+        Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+        sharingIntent.setType("text/plain");
+        String bitcoinUri = Utils.createBitcoinUrl(receiveAddress, 0, null, null, null);
+        sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "CTX Send Request");
+        sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, bitcoinUri);
+        startActivity(Intent.createChooser(sharingIntent, "Share via"));
     }
 
 }

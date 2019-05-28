@@ -86,7 +86,7 @@ public class FragmentRequestAmount extends Fragment {
     private String receiveAddress;
     private BRButton shareButton;
     private Button shareEmail;
-//    private Button shareTextMessage;
+    private Button shareTextMessage;
     private boolean shareButtonsShown = true;
     private String selectedIso;
     private Button isoButton;
@@ -127,7 +127,7 @@ public class FragmentRequestAmount extends Fragment {
         mQrImage = (ImageView) rootView.findViewById(R.id.qr_image);
         shareButton = (BRButton) rootView.findViewById(R.id.share_button);
         shareEmail = (Button) rootView.findViewById(R.id.share_email);
-//        shareTextMessage = (Button) rootView.findViewById(R.id.share_text);
+        shareTextMessage = (Button) rootView.findViewById(R.id.share_text);
         shareButtonsLayout = (BRLinearLayoutWithCaret) rootView.findViewById(R.id.share_buttons_layout);
         close = (ImageButton) rootView.findViewById(R.id.close_button);
         keyboardIndex = signalLayout.indexOfChild(keyboardLayout);
@@ -156,7 +156,7 @@ public class FragmentRequestAmount extends Fragment {
         signalLayout.removeView(request);
 
         showCurrencyList(false);
-        selectedIso = BRSharedPrefs.getPreferredBTC(getContext()) ? "LTC" : BRSharedPrefs.getIso(getContext());
+        selectedIso = BRSharedPrefs.getPreferredBTC(getContext()) ? "CTX" : BRSharedPrefs.getIso(getContext());
 
         signalLayout.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -224,20 +224,20 @@ public class FragmentRequestAmount extends Fragment {
 
             }
         });
-//        shareTextMessage.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                removeCurrencySelector();
-//                if (!BRAnimator.isClickAllowed()) return;
-//                showKeyboard(false);
-//                String iso = selectedIso;
-//                String strAmount = amountEdit.getText().toString();
-//                BigDecimal bigAmount = new BigDecimal((Utils.isNullOrEmpty(strAmount) || strAmount.equalsIgnoreCase(".")) ? "0" : strAmount);
-//                long amount = BRExchange.getSatoshisFromAmount(getActivity(), iso, bigAmount).longValue();
-//                String bitcoinUri = Utils.createBitcoinUrl(receiveAddress, amount, null, null, null);
-//                QRUtils.share("sms:", getActivity(), bitcoinUri);
-//            }
-//        });
+        shareTextMessage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                removeCurrencySelector();
+                if (!BRAnimator.isClickAllowed()) return;
+                showKeyboard(false);
+                String iso = selectedIso;
+                String strAmount = amountEdit.getText().toString();
+                BigDecimal bigAmount = new BigDecimal((Utils.isNullOrEmpty(strAmount) || strAmount.equalsIgnoreCase(".")) ? "0" : strAmount);
+                long amount = BRExchange.getSatoshisFromAmount(getActivity(), iso, bigAmount).longValue();
+                String bitcoinUri = Utils.createBitcoinUrl(receiveAddress, amount, null, null, null);
+                QRUtils.share("sms:", getActivity(), bitcoinUri);
+            }
+        });
         shareButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -269,7 +269,7 @@ public class FragmentRequestAmount extends Fragment {
             @Override
             public void onClick(View v) {
                 if (selectedIso.equalsIgnoreCase(BRSharedPrefs.getIso(getContext()))) {
-                    selectedIso = "LTC";
+                    selectedIso = "CTX";
                 } else {
                     selectedIso = BRSharedPrefs.getIso(getContext());
                 }
@@ -326,7 +326,7 @@ public class FragmentRequestAmount extends Fragment {
                     @Override
                     public void run() {
                         mAddress.setText(receiveAddress);
-                        boolean generated = generateQrImage(receiveAddress, "0", "LTC");
+                        boolean generated = generateQrImage(receiveAddress, "0", "CTX");
                         if (!generated)
                             throw new RuntimeException("failed to generate qr image for address");
                     }
@@ -452,7 +452,7 @@ public class FragmentRequestAmount extends Fragment {
             String am = new BigDecimal(amount).divide(new BigDecimal(100000000), 8, BRConstants.ROUNDING_MODE).toPlainString();
             amountArg = "?amount=" + am;
         }
-        return QRUtils.generateQR(getActivity(), "litecoin:" + address + amountArg, mQrImage);
+        return QRUtils.generateQR(getActivity(), "centauri:" + address + amountArg, mQrImage);
     }
 
 

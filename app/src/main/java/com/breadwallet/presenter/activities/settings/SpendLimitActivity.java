@@ -117,7 +117,7 @@ public class SpendLimitActivity extends BRActivity {
                 break;
 
             default:
-                result = new BigDecimal(ONE_BITCOIN);//   1 BTC Default
+                result = new BigDecimal(0);// 0 always require
                 break;
         }
         return result;

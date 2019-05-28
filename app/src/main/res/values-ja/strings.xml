@@ -9,13 +9,14 @@
   <!-- Privay Policy button label -->
   <string name="About.privacy">プライバシーポリシー</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">Reddit（レディット）</string>
+  <string name="About.reddit">Twitter（レディット）</string>
   <!-- Terms of Use button label -->
   <string name="About.terms">利用規約</string>
   <!-- About screen title -->
   <string name="About.title">概要</string>
   <!-- About screen twitter label -->
   <string name="About.twitter">Twitter</string>
+  <string name="About.telegram">Telegram</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">閉じる</string>
   <!-- Support center accessibiliy label -->
@@ -33,7 +34,7 @@
   <!-- Error alert title -->
   <string name="Alert.error">エラー</string>
   <!-- Keystore error -->
-  <string name="Alert.keystore.generic.android">Android OSのKeystoreに問題があります。contact@loafwallet.org にお問い合わせください。</string>
+  <string name="Alert.keystore.generic.android">Android OSのKeystoreに問題があります。office@entauricoin.info にお問い合わせください。</string>
   <!-- KeyStore error, keys are invalidated -->
   <string name="Alert.keystore.invalidated.android">お使いのAndroidロック画面が無効にされたため、暗号化されたブレッドのデータはつい最近無効になりました。</string>
   <!-- Keystore error title -->
@@ -140,7 +141,7 @@
   <string name="ConfirmPaperPhrase.label">すべてが正しく書き留められていることを確認するため、紙の鍵に記入した下記のフレーズを入力してください。</string>
   <!-- Word label eg. Word #1, Word #2 -->
   <string name="ConfirmPaperPhrase.word">フレーズ #%1$s</string>
-  <!-- Litecoin denomination picker label -->
+  <!-- Centauricoin denomination picker label -->
   <string name="DefaultCurrency.litecoinLabel">ライトコインの表示単位</string>
   <!-- Exchange rate label -->
   <string name="DefaultCurrency.rateLabel">為替レート</string>
@@ -486,7 +487,7 @@
   <string name="Settings.currency">表示される通貨</string>
   <!-- Join Early access label -->
   <string name="Settings.earlyAccess">早期アクセスに参加</string>
-  <!-- Are you enjoying Loaf alert message body -->
+  <!-- Are you enjoying CTX alert message body -->
   <string name="Settings.enjoying">ブレッドをお楽しみいただいていますか?</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">ウォレットをインポート</string>
@@ -558,7 +559,7 @@
   <string name="TouchIdSettings.spendingLimit">利用限度: %1$s (%2$s)</string>
   <!-- Touch id switch label. -->
   <string name="TouchIdSettings.switchLabel">ブレッドでTouch IDの有効化</string>
-  <!-- Enable fingerprint for this wallet called Loaf -->
+  <!-- Enable fingerprint for this wallet called CTX -->
   <string name="TouchIdSettings.switchLabel.android">指紋認証を有効にする</string>
   <!-- Touch ID settings view title -->
   <string name="TouchIdSettings.title">Touch ID</string>
@@ -707,7 +708,7 @@
   <!-- Updating webview message -->
   <string name="Webview.updating">更新中...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">Loafwalletは新しい見た目と新機能を備えて、Loafという名前に生まれ変わりました。\n\nヘルプをご覧になるには、ほとんどの画面の右上にある(?)をお探しください。</string>
+  <string name="Welcome.body">CTXWalletは新しい見た目と新機能を備えて、Loafという名前に生まれ変わりました。\n\nヘルプをご覧になるには、ほとんどの画面の右上にある(?)をお探しください。</string>
   <!-- Top title of welcome screen -->
   <string name="Welcome.title">Loafへようこそ！</string>
   <!-- Wipe wallet alert message -->

@@ -140,11 +140,20 @@ public class QRUtils {
 //        Uri uri = Uri.fromFile(file);
 
         Intent intent = new Intent();
-        intent.setAction(android.content.Intent.ACTION_SEND);
-        intent.setType("plain/text");
-        intent.putExtra(Intent.EXTRA_SUBJECT, "Litecoin Address");
-        intent.putExtra(Intent.EXTRA_TEXT, bitcoinUri);
-        app.startActivity(Intent.createChooser(intent, "Open mail app"));
+        if (via.equalsIgnoreCase("sms:")) {
+            intent.setAction(Intent.ACTION_VIEW);
+            intent.setData(Uri.parse("sms:"));
+            intent.putExtra("sms_body", bitcoinUri);
+            intent.putExtra("exit_on_sent", true);
+            app.startActivity(intent);
+
+        } else {
+            intent.setAction(android.content.Intent.ACTION_SEND);
+            intent.setType("plain/text");
+            intent.putExtra(Intent.EXTRA_SUBJECT, "Centauricoin Address");
+            intent.putExtra(Intent.EXTRA_TEXT, bitcoinUri);
+            app.startActivity(Intent.createChooser(intent, "Open mail app"));
+        }
 //        if (uri != null)
 //            intent.putExtra(Intent.EXTRA_STREAM, uri);
 
